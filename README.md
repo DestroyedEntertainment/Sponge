@@ -25,14 +25,14 @@ The following steps will ensure your project is cloned properly.
 __Note:__ If you do not have [Gradle] installed then use ./gradlew for Unix systems or Git Bash and gradlew.bat for Windows systems in place of any 'gradle' command.
 
 __For [Eclipse]__  
-  1. Run `gradle setupDecompWorkspace --refresh-dependencies`  
+  1. Run `gradlew setupDecompWorkspace --refresh-dependencies`  
   2. Make sure you have the Gradle plugin installed (Help > Eclipse Marketplace > Gradle Integration Plugin)  
   3. Import Sponge as a Gradle project (File > Import)
   4. Select the root folder for Sponge and click **Build Model**
   5. Check Sponge when it finishes building and click **Finish**
 
 __For [IntelliJ]__  
-  1. Run `gradle setupDecompWorkspace --refresh-dependencies`  
+  1. Run `gradlew setupDecompWorkspace --refresh-dependencies`  
   2. Make sure you have the Gradle plugin enabled (File > Settings > Plugins).  
   3. Click File > Import Module and select the **build.gradle** file for Sponge.
 
